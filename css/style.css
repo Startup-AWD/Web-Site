@@ -7,9 +7,13 @@
 }
 
 .logo {
-    width: 8.5vw;
+    width: 140px;
     margin: 15px;
 }
 
-
-
+/* Responsividade da logo, quando estiver com uma tela menor que 767px, diminuir a logo para 90px */
+@media (max-width: 767px) {
+    .logo {
+        width: 90px;
+    }
+}
