@@ -18,17 +18,16 @@
     }
 }
 
-body {
-    background-image: url(/assets/background.png);
-    background-repeat: no-repeat;
-    background-size: 100% contain;
-    background-position: 0 100px;
-}
+
 
 .quemsomos {
+    background-image: url(/assets/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+    background-position: 0 0;
     display: flex;
     flex-direction: column;
-    height: 700px;
+    height: 1087px;
     align-items: center;
 }
 
@@ -36,7 +35,7 @@ body {
     padding: 10px;
     margin-top: 30px;
     font-weight: 900;
-    font-size: 80px;
+    font-size: 4vw;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -44,23 +43,13 @@ body {
 .textoapresentacao {
     margin-top: -50px;
     padding: 30px;
-    font-size: 35px;
+    font-size: 1.45vw;
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
 @media (max-width: 1440px){
-    .textoapresentacao{
-        font-size: 25px;
-    }
-    
-    .title{
-        font-size: 7px;
-    }
-}
-
-@media (max-width: 1024px){
     .textoapresentacao{
         font-size: 20px;
     }
@@ -70,7 +59,7 @@ body {
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 794px){
     .textoapresentacao{
         font-size: 15px;
     }
@@ -80,9 +69,9 @@ body {
     }
 }
 
-@media (max-width: 375px){
+@media (max-width: 377px){
     .textoapresentacao{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     .title{
@@ -100,14 +89,27 @@ body {
     }
 }
 
+.maissobre {
+    padding: 20px;
+    margin-top: 450px;
+    font-size: 35px;
+    font-weight: 800;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    row-gap: 10px;
+    row-gap: 70px;
     column-gap: 60px;
-    height: 900px;
+    
+}
+
+@media (max-width: 570px){
+    .container {
+        margin-top: 200px;
+    }
 }
 
 .bloco1,.bloco2,.bloco3 {
@@ -119,4 +121,17 @@ body {
     border-radius: 25px;
     width: 300px;
     height: 380px;
+    text-align: center;
+}
+
+ul {
+    list-style:none;
+    margin-left: -35px;
+}
+
+.missao,.visao,.valores {
+    color: #000;
+    margin-top: -50px;
+    font-weight: 800;
+    font-size: 25px;
 }
