@@ -112,7 +112,9 @@
     }
 }
 
-.bloco1,.bloco2,.bloco3 {
+.bloco1,
+.bloco2,
+.bloco3 {
     font-weight: 700;
     letter-spacing: 2px;
     color: #fff;
