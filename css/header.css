@@ -11,3 +11,9 @@ ul .dropdown-menu {
 .nav-item.dropdown {
     margin-right: 56px;
 }
+
+@media screen and (max-width: 991px) {
+    .cabecalho {
+        margin-top: 5px;
+    }
+}
