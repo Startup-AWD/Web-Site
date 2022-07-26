@@ -118,12 +118,23 @@
     letter-spacing: 2px;
     color: #fff;
     padding: 13px;
-    background: #6D3DB2;
     border-radius: 25px;
     width: 300px;
     height: 380px;
     text-align: center;
     margin-bottom: 50px;
+}
+
+.bloco1 {
+    background-color: #5C42A7;
+}
+
+.bloco2 {
+    background-color: #6D3DB2;
+}
+
+.bloco3 {
+    background-color: #783FB2;
 }
 
 ul {
