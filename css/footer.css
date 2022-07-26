@@ -1,0 +1,31 @@
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #6d3db2;
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.white {
+    color: white;
+}
+
+.links {
+    display: flex;
+}
+
+.espace {
+    padding: 0 5px;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.redes {
+    margin-top: 3px;
+}
