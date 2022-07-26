@@ -1,0 +1,13 @@
+.navbar-nav {
+    margin-left: 0px;
+}
+
+
+ul .dropdown-menu {
+    justify-content: center;
+
+}
+
+.nav-item.dropdown {
+    margin-right: 56px;
+}
