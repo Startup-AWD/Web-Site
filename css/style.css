@@ -6,6 +6,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .logo {
     width: 140px;
     margin: 15px;
