@@ -159,3 +159,9 @@ ul {
     font-weight: 800;
     font-size: 25px;
 }
+
+@media (min-width: 1655px){
+    .maissobre{
+        margin-top: 150px;
+    }
+}
