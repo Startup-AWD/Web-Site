@@ -234,3 +234,89 @@ ul {
     font-weight: 800;
     font-size: 25px;
 }
+
+.conhecimentos {
+    background-color: #783FB2;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.nossosconhecimentos {
+    width: 80rem;
+    height: 10rem;
+    margin: 1rem 2rem 1.5rem 2rem;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.titulo {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1355px) {
+    .conhecimentos {
+        background-color: #783FB2;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    
+    .nossosconhecimentos {
+        width: 50rem;
+        height: 12rem;
+        margin: 1rem 2rem 1.5rem 2rem;
+        text-align: justify;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .conhecimentos {
+        background-color: #783FB2;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    
+    .nossosconhecimentos {
+        width: 40rem;
+        height: 11rem;
+        margin: 0.5rem 2rem 1.5rem 2rem;
+        text-align: justify;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .conhecimentos {
+        background-color: #783FB2;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
+    
+    .nossosconhecimentos {
+        width: 30rem;
+        height: 15rem;
+        margin: 0.5rem 2rem 1.5rem 2rem;
+        text-align: justify;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .nossosconhecimentos {
+        width: 20rem;
+        height: 22rem;
+        margin: 0.5rem 2rem 1.5rem 2rem;
+        text-align: justify;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .nossosconhecimentos {
+        width: 15rem;
+        height: 27rem;
+        margin: 0.5rem 2rem 1.5rem 2rem;
+        text-align: justify;
+        font-size: 15px;
+    }
+}
